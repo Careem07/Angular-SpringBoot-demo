@@ -1,0 +1,14 @@
+<h1>Welcome Student</h1>
+<p>student works!</p>
+
+First Name
+<input #studentFirstName type="text">
+<br>
+
+Last Name
+<input #studentLastName type="text">
+<br>
+Student age
+<input #studentSalary type="number" required/>
+
+<button class="add-button" (click)="add(studentFirstName.value,studentFirstName.value,parseInt(studentSalary.value))">Add Student</button>
